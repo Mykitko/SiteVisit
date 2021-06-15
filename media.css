@@ -1,0 +1,223 @@
+@media (max-width: 1170px) {
+    .headerWrapper {
+        max-width: 970px;
+    }
+
+    .aboutContainer h2 {
+        font-size: 1.5rem !important;
+        font: inherit;
+        font-style: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-caps: inherit;
+        font-variant-numeric: inherit;
+        font-variant-east-asian: inherit;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+
+    .aboutContainer h1 {
+        margin-bottom: 1.5rem;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .headerWrapper {
+        max-width: 750px;
+    }
+
+    .mainInfo h1 {
+        text-align: center;
+        color: #141c3a;
+        font-weight: 700;
+        margin-bottom: 2.5rem;
+        line-height: 1.125;
+        font-size: 3rem !important;
+        font-family: "eurostile", sans-serif;
+    }
+
+    .mainInfo h2 {
+        color: #141c3a;
+        text-align: center;
+        font-family: "europa", sans-serif;
+        font-weight: 200;
+        line-height: 1.5;
+        margin-bottom: 2rem;
+        font-size: 27px;
+    }
+
+    .headerLogo img {
+        max-height: 6rem;
+        float: left;
+    }
+
+    .headerButtons h2{
+    float: right;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: inherit;
+    font-family: "europa", sans-serif;
+    color: #7510F7;
+    padding: 20px;
+    border: 2px solid #7510F7;
+    border-radius: 290486px;   
+}
+
+    .aboutSection{
+        height: 550px;
+    }
+
+    .aboutContainer h1 {
+        margin-bottom: 1.5rem;
+        font-size: 2.5rem;
+    }
+
+    .aboutContainer h2 {
+        font-size: 1.7rem !important;
+        font: inherit;
+        font-style: inherit;
+        font-variant-ligatures: inherit;
+        font-variant-caps: inherit;
+        font-variant-numeric: inherit;
+        font-variant-east-asian: inherit;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+
+
+    .interest h1 {
+        margin-top: 2rem;
+        font-size: 18px;
+        margin-bottom: 1.5rem;
+        font-weight: 500;
+    }
+
+    .interest h2 {
+        font-size: 11px;
+        margin-bottom: 1.5rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-weight: 100;
+    }
+
+
+    .interest h3 {
+        margin-top: 1rem;
+        width: fit-content;
+        font-size: 38px;
+        font-weight: inherit;
+        font-family: "europa", sans-serif;
+        color: #7510F7;
+        padding: 23px;
+        border: 2px solid #7510F7;
+        border-radius: 290486px;
+    }
+
+        nav{
+            height: 5rem;
+        }
+    
+
+    .skillsContainer h2 {
+        color: #141c3a;
+        font-size: 25px;
+        line-height: 30px;
+        font-family: "eurostile", sans-serif;
+        font-weight: 200;
+        margin-bottom: 2rem;
+    }
+
+    .skillsContainer h1 {
+        font-size: 2.5em;
+        font-family: "eurostile", sans-serif;
+        font-weight: 700;
+        color: #141c3a;
+        margin-bottom: 1.5rem;
+    }
+
+    .skillsContainer {
+        display: block;
+        max-width: 70%;
+    }
+    .frontendSkill {
+        border: 0px;
+        padding: 1rem;
+        text-align: center;
+        width: 90%;
+        padding-top: 4rem;
+    }
+
+    .frontendSkill img {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 1.5rem;
+    }
+
+
+    .languages {
+        padding: 1rem;
+        border-right: 0px solid #e6ecf8;
+        text-align: center;
+        width: 90%;
+        padding-top: 4rem;
+    }
+
+    .languages img {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 1.5rem;
+    }
+
+
+    .devTools {
+        padding: 1rem;
+        text-align: center;
+        width: 90%;
+        padding-top: 4rem;
+    }
+
+    .devTools img {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 1.5rem;
+    }
+
+    footer h2 {
+        font-family: "europa",
+        sans-serif;
+        color: #fff;
+        font-weight: 300;
+        font-size: 0.8rem;
+        margin: 2rem auto;
+        max-width: 500px;
+        opacity: 0.7;
+    }
+
+
+    .footerButtons a {
+        height: 80px;
+        width: 80px;
+        font-size: 45px;
+        margin-right: 15px;
+        margin-left: 15px;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 100%;
+        opacity: 1;
+    }
+
+}
+
+
+
+@media (max-width: 767px) {
+    .headerWrapper {
+        max-width: none;
+    }
+}
+
